@@ -1,0 +1,22 @@
+.hero {
+	text-align: left;
+	border-radius: 10px;
+	max-width: 660px;
+	margin: 60px auto;
+}
+
+.hero.mediumwidth {
+	width: 70%;
+	padding: 40px;
+	background: #eee;
+}
+
+.mediumwidth p {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.btn-med {
+	font-size: 28px;
+	padding: 13px 30px 15px;
+}
