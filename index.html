@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script> 
+			document.createElement("nav"); document.createElement("ico"); document.createElement("button");
+			</script>
+		<!--[if lt IE 9]> 
+			<script> 
+				document.createElement("col"); document.createElement("message"); document.createElement("nav"); document.createElement("ico"); document.createElement("button");
+
+
+			</script>
+		<![endif]-->
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>min</title>
+
+		<!--[if lt IE 7]>
+		<script src="IE70.js"></script>
+		<![endif]-->
+		
+		<!--<link href="http://minfwk.com/entireframework.min.css" rel="stylesheet" type="text/css" />-->
+		
+		<!--
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/buttons.less?778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/general.less?778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/grid.less?777778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/headings.less?78"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/icons.less?77778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/iehacks.less?778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/inputs.less?7778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/messages.less?78"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/navbar.less?7778"/>
+		<link type="text/css" rel="stylesheet/less" href="http://www.bigrectangle.com/proxy.php?url=https://raw2.github.com/OwenVersteeg/min/sass_parody_and_size_updates_pt1/less/tables.less?7778"/>
+		-->
+		
+		<style type="text/css">
+			/*Copyright (c) 2014 Owen Versteeg; MIT licensedbody,textarea{font:16px sans-serif;margin:0}.smooth{transition:all .2s}.btn,.nav a{text-decoration:none}.btn,.nav{outline:0}.container{width:1270px;margin:auto}@media(max-width:1310px){.container{margin:0 20px;width:auto}}.btn{background:#999;border-radius:10px;border:0;color:#fff;cursor:pointer;display:inline-block;font-size:2.5em;margin:.2em .3em .2em 0;padding:15px 40px 16px}.btn:hover{background:#888}.btn:active,.btn:focus{background:#777}.btn-a{background:#0ae}.btn-a:hover{background:#09d}.btn-a:active,.btn-a:focus{background:#08b}.btn-b{background:#3c5}.btn-b:hover{background:#2b4}.btn-b:active,.btn-b:focus{background:#2a4}.btn-c{background:#d33}.btn-c:hover{background:#c22}.btn-c:active,.btn-c:focus{background:#b22}.btn-sm{border-radius:4px;font-size:.9em;padding:10px 15px 11px}.row{margin-top:2%;overflow:auto}.col{float:left}.c12{width:100%}.c11{width:91.66%}.c10{width:83.33%}.c9{width:75%}.c8{width:66.66%}.c7{width:58.33%}.c6{width:50%}.c5{width:41.66%}.c4{width:33.33%}.c3{width:25%}.c2{width:16.66%}.c1{width:8.33%}@media(max-width:870px){.row .col{width:100%}}h1{font-size:4em}h2{font-size:2em}.ico{font:2.04em Arial Unicode MS,Lucida Sans Unicode}textarea,input,.addon-front{font-size:.8em}textarea,input{border:1px solid #ccc;outline:0;padding:6px;-webkit-appearance:none}textarea:focus,input:focus{border-color:#5ab}textarea,input[type='text']{width:13em}.addon-front{padding:6px 11px;box-shadow:0 0 0 1px #ccc}.nav,.nav .current,.nav a:hover{background:#000;color:#fff}.nav{height:1.5em;padding:.7em 0 .95em}.nav a{padding-right:1em;color:#aaa;top:-1px;font-size:14px;position:relative}.btn.btn-close{background:#000;visibility:hidden;float:right;margin-top:-54px;font-size:25px}.nav .pagename{font-size:22px;top:1px}@media(max-width:500px){.btn.btn-close{visibility:visible}.nav{overflow:hidden}.pagename{margin-top:-11px}.nav:focus{height:auto}.nav div:before{content:'';border-top:3px solid;border-bottom:10px double;float:right;height:4px;right:3px;top:14px;width:20px;position:relative;background:#000}.nav a{padding:.5em 0;width:50%;display:block}}table{width:100%;border-spacing:0}th,td{padding:.5em;text-align:left}tbody tr:nth-child(2n-1){background:#ccc}*/
+			/*Copyright 2014 Owen Versteeg; MIT licensedbody,textarea{font:16px sans-serif;margin:0}.smooth{transition:all .2s}.btn,.nav a{text-decoration:none}*{outline:0}.container{width:1270px;margin:auto}@media(max-width:1310px){.container{margin:0 20px;width:auto}}label *{display:inline}.btn{background:#999;border-radius:10px;border:0;color:#fff;cursor:pointer;display:inline-block;font-size:2.5em;margin:.2em .3em .2em 0;padding:15px 40px 16px}.btn:hover{background:#888}.btn:active,.btn:focus{background:#777}.btn-a{background:#0ae}.btn-a:hover{background:#09d}.btn-a:active,.btn-a:focus{background:#08b}.btn-b{background:#3c5}.btn-b:hover{background:#2b4}.btn-b:active,.btn-b:focus{background:#2a4}.btn-c{background:#d33}.btn-c:hover{background:#c22}.btn-c:active,.btn-c:focus{background:#b22}.btn-sm{border-radius:4px;font-size:.9em;padding:10px 15px 11px}.row{margin-top:2%;overflow:auto}.col{float:left}.c12,.table{width:100%}.c11{width:91.66%}.c10{width:83.33%}.c9{width:75%}.c8{width:66.66%}.c7{width:58.33%}.c6{width:50%}.c5{width:41.66%}.c4{width:33.33%}.c3{width:25%}.c2{width:16.66%}.c1{width:8.33%}@media(max-width:870px){.row .col{width:100%}}h1{font-size:4em}h2{font-size:2em}.ico{font:2.04em Arial Unicode MS,Lucida Sans Unicode}textarea,input,.addon-front{font-size:.9em}textarea,input{border:1px solid #ccc;padding:8px}textarea:focus,input:focus{border-color:#5ab}textarea,input[type='text']{width:13em;-webkit-appearance:none}.addon-front{padding:8px 12px;box-shadow:0 0 0 1px #ccc}.nav,.nav .current,.nav a:hover{background:#000;color:#fff}.nav{height:1.5em;padding:.7em 0 .95em}.nav a{padding-right:1em;color:#aaa;top:-1px;font-size:14px;position:relative}.btn.btn-close{background:#000;visibility:hidden;float:right;margin-top:-54px;font-size:25px}.nav .pagename{font-size:22px;top:1px}@media(max-width:500px){.btn.btn-close{visibility:visible}.nav{overflow:hidden}.pagename{margin-top:-11px}.nav:focus{height:auto}.nav div:before{content:'';border-top:3px solid;border-bottom:10px double;float:right;height:4px;right:3px;top:14px;width:20px;position:relative;background:#000}.nav a{padding:.5em 0;width:50%;display:block}}.table{border-spacing:0}th,td{padding:.5em;text-align:left}tbody tr:nth-child(2n-1){background:#ccc}*/
+			/*Copyright 2014 Owen Versteeg; MIT licensedbody,textarea{font:16px sans-serif;margin:0}.smooth{transition:all .2s}.btn,.nav a{text-decoration:none}*{outline:0}.container{width:1270px;margin:auto}@media(max-width:1310px){.container{margin:0 20px;width:auto}}label>*{display:inline}.btn{background:#999;border-radius:10px;border:0;color:#fff;cursor:pointer;display:inline-block;font-size:2.5em;margin:.2em .3em .2em 0;padding:15px 40px 16px}.btn:hover{background:#888}.btn:active,.btn:focus{background:#777}.btn-a{background:#0ae}.btn-a:hover{background:#09d}.btn-a:active,.btn-a:focus{background:#08b}.btn-b{background:#3c5}.btn-b:hover{background:#2b4}.btn-b:active,.btn-b:focus{background:#2a4}.btn-c{background:#d33}.btn-c:hover{background:#c22}.btn-c:active,.btn-c:focus{background:#b22}.btn-sm{border-radius:4px;font-size:.9em;padding:10px 15px 11px}.row{margin-top:2%;overflow:auto}.col{float:left}.c12,.table{width:100%}.c11{width:91.66%}.c10{width:83.33%}.c9{width:75%}.c8{width:66.66%}.c7{width:58.33%}.c6{width:50%}.c5{width:41.66%}.c4{width:33.33%}.c3{width:25%}.c2{width:16.66%}.c1{width:8.33%}@media(max-width:870px){.row .col{width:100%}}h1{font-size:4em}h2{font-size:2em}.ico{font:2.04em Arial Unicode MS,Lucida Sans Unicode}textarea,input,.addon-front{font-size:.9em}textarea,input{border:1px solid #ccc;padding:8px}textarea:focus,input:focus{border-color:#5ab}textarea,input[type='text']{width:13em;-webkit-appearance:none}.addon-front{padding:8px 12px;box-shadow:0 0 0 1px #ccc}.nav,.nav .current,.nav a:hover{background:#000;color:#fff}.nav{height:1.5em;padding:.7em 0 .95em}.nav a{padding-right:1em;color:#aaa;top:-1px;font-size:14px;position:relative}.btn.btn-close{background:#000;visibility:hidden;float:right;margin-top:-54px;font-size:25px}.nav .pagename{font-size:22px;top:1px}@media(max-width:500px){.btn.btn-close{visibility:visible}.nav{overflow:hidden}.pagename{margin-top:-11px}.nav:focus{height:auto}.nav div:before{content:'';border-top:3px solid;border-bottom:10px double;float:right;height:4px;right:3px;top:14px;width:20px;position:relative;background:#000}.nav a{padding:.5em 0;width:50%;display:block}}.table{border-spacing:0}th,td{padding:.5em;text-align:left}tbody tr:nth-child(2n-1){background:#ccc}*/
+			/*Copyright 2014 Owen Versteeg; MIT licensedbody,textarea{font:16px sans-serif;margin:0}.smooth{transition:all .2s}.btn,.nav a{text-decoration:none}*{outline:0}.container{width:1270px;margin:auto}@media(max-width:1310px){.container{margin:0 20px;width:auto}}label>*{display:inline}form>*{display:block}.btn{background:#999;border-radius:10px;border:0;color:#fff;cursor:pointer;display:inline-block;font-size:2.5em;margin:.2em .3em .2em 0;padding:15px 40px 16px}.btn:hover{background:#888}.btn:active,.btn:focus{background:#777}.btn-a{background:#0ae}.btn-a:hover{background:#09d}.btn-a:active,.btn-a:focus{background:#08b}.btn-b{background:#3c5}.btn-b:hover{background:#2b4}.btn-b:active,.btn-b:focus{background:#2a4}.btn-c{background:#d33}.btn-c:hover{background:#c22}.btn-c:active,.btn-c:focus{background:#b22}.btn-sm{border-radius:4px;font-size:.9em;padding:10px 15px 11px}.row{margin-top:2%;overflow:auto}.col{float:left}.c12,.table{width:100%}.c11{width:91.66%}.c10{width:83.33%}.c9{width:75%}.c8{width:66.66%}.c7{width:58.33%}.c6{width:50%}.c5{width:41.66%}.c4{width:33.33%}.c3{width:25%}.c2{width:16.66%}.c1{width:8.33%}@media(max-width:870px){.row .col{width:100%}}h1{font-size:4em}h2{font-size:2em}.ico{font:2.04em Arial Unicode MS,Lucida Sans Unicode}textarea,input,.addon-front{font-size:.9em}textarea,input{border:1px solid #ccc;padding:8px}textarea:focus,input:focus{border-color:#5ab}textarea,input[type='text']{width:13em;-webkit-appearance:none}.addon-front{padding:8px 12px;box-shadow:0 0 0 1px #ccc}.nav,.nav .current,.nav a:hover{background:#000;color:#fff}.nav{height:1.5em;padding:.7em 0 .95em}.nav a{padding-right:1em;color:#aaa;top:-1px;font-size:14px;position:relative}.btn.btn-close{background:#000;visibility:hidden;float:right;margin-top:-54px;font-size:25px}.nav .pagename{font-size:22px;top:1px}@media(max-width:500px){.btn.btn-close{visibility:visible}.nav{overflow:hidden}.pagename{margin-top:-11px}.nav:focus{height:auto}.nav div:before{content:'';border-top:3px solid;border-bottom:10px double;float:right;height:4px;right:3px;top:14px;width:20px;position:relative;background:#000}.nav a{padding:.5em 0;width:50%;display:block}}.table{border-spacing:0}th,td{padding:.5em;text-align:left}tbody tr:nth-child(2n-1){background:#ccc} */
+			/*Copyright 2014 Owen Versteeg; MIT licensed*/body,textarea{font:16px sans-serif;margin:0}.smooth{transition:all .2s}.btn,.nav a{text-decoration:none}*{outline:0}.container{width:1270px;margin:auto}@media(max-width:1310px){.container{margin:0 20px;width:auto}}label>*{display:inline}form>*{display:block;margin-bottom:10px}.btn{background:#999;border-radius:10px;border:0;color:#fff;cursor:pointer;display:inline-block;font-size:2.5em;margin:.2em .3em .2em 0;padding:15px 40px 16px}.btn:hover{background:#888}.btn:active,.btn:focus{background:#777}.btn-a{background:#0ae}.btn-a:hover{background:#09d}.btn-a:active,.btn-a:focus{background:#08b}.btn-b{background:#3c5}.btn-b:hover{background:#2b4}.btn-b:active,.btn-b:focus{background:#2a4}.btn-c{background:#d33}.btn-c:hover{background:#c22}.btn-c:active,.btn-c:focus{background:#b22}.btn-sm{border-radius:4px;font-size:.9em;padding:10px 15px 11px}.row{margin-top:2%;overflow:auto}.col{float:left}.c12,.table{width:100%}.c11{width:91.66%}.c10{width:83.33%}.c9{width:75%}.c8{width:66.66%}.c7{width:58.33%}.c6{width:50%}.c5{width:41.66%}.c4{width:33.33%}.c3{width:25%}.c2{width:16.66%}.c1{width:8.33%}@media(max-width:870px){.row .col{width:100%}}h1{font-size:4em}h2{font-size:2em}.ico{font:2.04em Arial Unicode MS,Lucida Sans Unicode}textarea,input,.addon-front{font-size:.9em}textarea,input{border:1px solid #ccc;padding:8px}textarea:focus,input:focus{border-color:#5ab}textarea,input[type='text']{width:13em;-webkit-appearance:none}.addon-front{padding:8px 12px;box-shadow:0 0 0 1px #ccc}.nav,.nav .current,.nav a:hover{background:#000;color:#fff}.nav{height:1.5em;padding:.7em 0 .95em}.nav a{padding-right:1em;color:#aaa;top:-1px;font-size:14px;position:relative}.btn.btn-close{background:#000;visibility:hidden;float:right;margin-top:-54px;font-size:25px}.nav .pagename{font-size:22px;top:1px}@media(max-width:500px){.btn.btn-close{visibility:visible}.nav{overflow:hidden}.pagename{margin-top:-11px}.nav:focus{height:auto}.nav div:before{content:'';border-top:3px solid;border-bottom:10px double;float:right;height:4px;right:3px;top:14px;width:20px;position:relative;background:#000}.nav a{padding:.5em 0;width:50%;display:block}}.table{border-spacing:0}th,td{padding:.5em;text-align:left}tbody tr:nth-child(2n-1){background:#ccc}
+
+			/* Min+ plugin*/
+			message {
+				display: block;
+				padding: 2em;
+				background: #def;
+				border-left: 5px solid #44e;
+			}
+
+			.warning {
+				border-color: #e44; 
+				background: #fdd;
+			}
+
+			.great {
+				border-color: #2d2;
+				background: #dfd;
+			}
+		</style>
+
+		<script src="./docs_files/less.js" type="text/javascript"></script><style type="text/css"></style>
+
+		<style type="text/css">
+			/* These styles are used on this page only to make the demo page look nicer. Don't use them in your project. */
+			
+			/* Bootstrap stuff */
+			.buttonsizes * {
+				vertical-align: bottom;
+				margin-bottom: 0;
+				margin-right: 10px;
+				margin-left: 0;
+			}
+
+			/* code blocks */
+			pre {
+				font-size: .9em;
+				word-wrap: break-word;
+			}
+			
+			/* formatting for grid system */
+			.dark {
+				background-color: rgb(172, 172, 172);
+			}
+			
+			.light {
+				background-color: rgb(223, 223, 223);
+			}
+			
+			.col {
+				text-align: center;
+			}
+			
+			.row {
+				line-height: 2em;
+			}
+			
+			/* pretty heading demo display (all headings on one line) */
+			.headings *:not(first-of-type) {
+				display: inline;
+			}
+			
+			/* fancy page heading styles */
+			h1:not(.exampleh1) {
+				margin: 0.2em 0;
+				border-bottom: 5px solid;
+				margin-bottom: 15px;
+				padding-bottom: 5px;
+			}
+			
+			/* normally, the button would extend past the page top and be invisible but when it's in the middle of the page it shows */
+			button.btn-close.btn-sm {
+				padding-top: 4px;
+				margin-top: -50px;
+			}
+
+			/* this fixes the display of the demo-navbar when the page is resized */
+			.navbar .container {
+				margin: 0 20px;
+			}
+			
+			/* support tables */
+			.support .full {
+				background: #3c5;
+			}
+			
+			.support .partial {
+				background: #fd5;
+			}
+			
+			.support .none {
+				background: #d55;
+			}
+			
+			.key {
+				padding: 5px;
+				line-height: 30px;
+			}
+			
+			.support th, .support td, .support table {
+				border: 1px solid;
+			}
+			.support table, .support .key {
+				font-weight: bold;
+			}
+			
+			@media (max-width: 900px) {
+				.browserdetails {
+					display: none;
+				}
+			}
+
+			/* End this-page-only styles, start beta styles */
+			nav {
+				display: block;
+			}
+
+			/* IE styles */
+
+			/*
+			.btn-sm {
+				font-size:1em;
+				margin-top: 0;
+				padding-top: 1000px;
+			}
+
+			button {
+				line-height: .65em;
+			}
+
+			a.btn {
+				margin-top: -84px;
+			}
+
+			a.btn-sm, div.btn-sm {
+				margin-top: -49px;
+				padding-top: 10px;
+			}
+
+			button.btn-sm {
+				line-height: .7em;
+				padding-top: 11px;
+			}
+			
+			.btn {
+				width: auto;
+				display: inline;
+				overflow: visible;
+			}
+
+			*/
+
+			/* Changes to the main CSS:
+			 - move media query from max-width to min-width
+			*/
+
+			/* new beta styles */
+			
+		</style>
+
+		<!--[if lte IE 6]>
+			<style>
+				.col {
+					margin: 0.5%;
+				}
+				.c12 {
+					margin: 0.5%;
+					margin-left: 0.5%;
+					width: 97%;
+				}
+				.container {
+					width: 90%;
+				}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<h1>Min Bootstrap plugin</h1>
+			<p>The Min Bootstrap plugin enables Min to support all of Bootstrap's features. Most Bootstrap sites can be made using only Min and no plugins, but for sites already using Bootstrap migrating to the Bootstrap plugin allows you to easily drop in Min.<br><br>Unfortunately, Min's Bootstrap plugin suffers from all of Bootstrap's problems: it only supports IE8+, is relatively large (5kb), requires overly verbose code, and is fairly prescriptive in design terms.
+			<br><br>The Bootstrap plugin has very similar syntax to Bootstrap itself. This page only notes the cases when Bootstrap syntax is different from the Min Bootstrap plugin's syntax. If a feature is not documented on this page, its syntax is identical to the Bootstrap syntax, and you should use <a href="http://getbootstrap.com/css/">the Bootstrap documentation.</a>
+			</p>
+			<style>
+/*form * { display: block; margin-bottom: 10px; }*/
+form.inline > *, .form-inline > * > * { display: inline-block; vertical-align: top; margin: 10px 10px 0 0; }
+form.inline label, .form-inline label { padding-top: 4px; }
+
+.checkbox-inline, .radio-inline { display: inline; }
+
+fieldset[disabled] *, .disabled label, input[disabled], textarea[disabled], .label.disabled { cursor: not-allowed; }
+
+label[for] { font-weight: bold; text-align: right; padding-right: 10px; }
+form .c10 { width: 83.33%; margin: 0; display: inline-block; }
+form .c2 { display: inline-block }
+label[for], form input[type="text"] { display: inline-block; box-sizing: border-box; }
+
+.ico.ico-input { margin-left: -38px;display: inline-block;vertical-align: middle;top: 5px;font-size: 28px;position: relative; }
+
+.has-success input, input.has-success { border-color: #5b5; } .has-warning input, input.has-warning { border-color: #ca6; } .has-error input, input.has-error { border-color: #c88; } [class*="has-"] { border-width: 2px; }
+
+.input-lg { font-size: 18px; }
+.input-sm { font-size: 12px; padding: 6px; }
+
+select { background: #fff; border-radius: 3px; }
+.help-block { color: #777; }
+
+/* Replicating the btn-a, btn-b, and btn-c styles */
+.btn-primary { background: #0ae; }
+.btn-primary:hover { background: #09d; }
+.btn-primary:active, .btn-primary:focus, .btn-primary.active, .btn-a.active { background: #08b; }
+
+.btn-success { background: #3c5; }
+.btn-success:hover { background: #2b4; }
+.btn-success:active, .btn-success:focus, .btn-success.active, .btn-b.active { background: #2a4; }
+
+.btn-danger { background: #d33; }
+.btn-danger:hover { background: #c22; }
+.btn-danger:active, .btn-danger:focus, .btn-danger.active, .btn-c.active { background: #b22; }
+
+/* Replicating Bootstrap styles */
+.btn-default { background: #fff; box-shadow: inset 0px 0px 0px 2px; color: black; }
+.btn-default:hover { background: #eee; }
+.btn-default:active, .btn-default:focus, .btn-default.active { background: #ddd; }
+
+.btn.btn-link { background: #fff; color: #38b; }
+.btn-link:hover { color: #27a; text-decoration: underline; }
+.btn-link:active, .btn-link:focus, .btn-link.active { color: #169; text-decoration: underline; }
+
+.btn-info { background: #3bd; }
+.btn-info:hover { background: #2ac; }
+.btn-info:active, .btn-info:focus, .btn-info.active { background: #19b; }
+
+.btn-warning { background: #e92; }
+.btn-warning:hover { background: #d81; }
+.btn-warning:active, .btn-warning:focus, .btn-warning.active { background: #c70; }
+
+.btn-lg { font-size: 60px; }
+.btn-xs { font-size: 11px; padding: 4px 8px; border-radius: 4px; }
+
+.btn-block { width: 100%; box-sizing: border-box; text-align: center; }
+
+.btn[disabled], .btn.disabled, fieldset[disabled] .btn { opacity: 0.5; pointer-events: none; }
+
+.img-responsive { max-width: 100%; height: auto; }
+
+.img-rounded { border-radius: 6px; }
+.img-circle { border-radius: 50%; }
+.img-thumbnail { border: 1px solid #ddd; padding: 5px; }
+
+.text-muted   { color: #777; }
+.text-primary { color: #48c; }
+.text-success { color: #373; }
+.text-info    { color: #378; }
+.text-warning { color: #863; }
+.text-danger  { color: #a44; }
+
+.bg-primary { background: #48c; color: white; }
+.bg-success { background: #ded; }
+.bg-info    { background: #def; }
+.bg-warning { background: #ffd; }
+.bg-danger  { background: #fdd; }
+[class*="bg-"] { padding: 15px; }
+
+.caret { margin-left: 7px; display: inline-block; border-top: 4px solid; border-right: 4px solid transparent; border-left: 4px solid transparent; }
+
+.pull-right { float: right!important; } .pull-left { float: left!important; }
+
+.center-block { display: block; margin-left: auto; margin-right: auto; }
+
+.hidden { display: none!important; visibility: hidden!important; }
+.show { display: block !important; }
+.invisible { visibility: hidden; }
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
+.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
+
+.close { -webkit-appearance: none; border: 0; background: #fff; display: inline-block; }
+
+.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none!important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none!important}@media (max-width:767px){.visible-xs{display:block!important}table.visible-xs{display:table}tr.visible-xs{display:table-row!important}th.visible-xs,td.visible-xs{display:table-cell!important}}@media (max-width:767px){.visible-xs-block{display:block!important}}@media (max-width:767px){.visible-xs-inline{display:inline!important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block!important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block!important}table.visible-sm{display:table}tr.visible-sm{display:table-row!important}th.visible-sm,td.visible-sm{display:table-cell!important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block!important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline!important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block!important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block!important}table.visible-md{display:table}tr.visible-md{display:table-row!important}th.visible-md,td.visible-md{display:table-cell!important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block!important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline!important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block!important}}@media (min-width:1200px){.visible-lg{display:block!important}table.visible-lg{display:table}tr.visible-lg{display:table-row!important}th.visible-lg,td.visible-lg{display:table-cell!important}}@media (min-width:1200px){.visible-lg-block{display:block!important}}@media (min-width:1200px){.visible-lg-inline{display:inline!important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block!important}}@media (max-width:767px){.hidden-xs{display:none!important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none!important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none!important}}@media (min-width:1200px){.hidden-lg{display:none!important}}.visible-print{display:none!important}@media print{.visible-print{display:block!important}table.visible-print{display:table}tr.visible-print{display:table-row!important}th.visible-print,td.visible-print{display:table-cell!important}}.visible-print-block{display:none!important}@media print{.visible-print-block{display:block!important}}.visible-print-inline{display:none!important}@media print{.visible-print-inline{display:inline!important}}.visible-print-inline-block{display:none!important}@media print{.visible-print-inline-block{display:inline-block!important}}@media print{.hidden-print{display:none!important}}
+
+.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}
+			</style>
+			<div>
+				<form>
+					<label class="c2" for="emailInput">Email</label><input id="emailInput" type="text" class="c10 smooth has-error" placeholder="Email" style=""><i class="ico ico-input">☒</i>
+					<label class="c2" for="passInput">Password</label><input id="passInput" type="text" class="c10 smooth has-success" placeholder="Password" style=""><i class="ico ico-input">☑</i>
+					<div class="c2"></div><div class="c10"><button type="submit" class="btn btn-sm btn-a">Sign in</button></div>
+
+					<br><br>
+
+					<input type="text" class="input-lg" placeholder="input-lg"> <input type="text" placeholder="Default"> <input type="text" class="input-sm" placeholder="input-sm">
+
+					<br>
+					<input type="text" class="has-warning" placeholder="This input is way too long">
+					<span class="help-block">This block of help text will no doubt only further confuse your poor users. Hopefully the hours wasted at the pub trying to forget your app can be listed as a business expense.</span>
+
+					<br>
+
+					<label>
+						<input type="checkbox">
+						Option two
+  				</label>
+  				<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						Option one
+					</label>
+					<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						Option two
+					</label>
+  				<textarea rows="3" class="smooth" placeholder="textarea" style=""></textarea>
+					<label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" value="option1"> 1</label>
+					<label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" value="option1"> 2</label>
+					<label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" value="option1"> 3</label>
+
+					<select class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+
+					<select multiple class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+
+					<label class="radio-inline"><input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1</label>
+					<label class="radio-inline"><input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2</label>
+					<label class="radio-inline"><input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3</label>
+  			</form>
+
+  			<br>
+
+  			<a class="btn smooth btn-default btn-sm" href="#">btn-default</a>
+  			<a class="btn smooth btn-primary btn-sm" href="#">btn-primary</a>
+				<a class="btn smooth btn-success btn-sm" href="#">btn-success</a>
+				<a class="btn smooth btn-info    btn-sm" href="#">btn-info   </a>
+				<a class="btn smooth btn-warning btn-sm" href="#">btn-warning</a>
+				<a class="btn smooth btn-danger  btn-sm" href="#">btn-danger </a>
+				<a class="btn smooth btn-link    btn-sm" href="#">btn-link   </a>
+
+				<br><br>
+
+				<div class="buttonsizes">
+					<a class="btn smooth btn-lg btn-a" href="#">btn-lg</a>
+					<a class="btn smooth btn btn-a" href="#">btn</a>
+					<a class="btn smooth btn-sm btn-a" href="#">btn-sm</a>
+					<a class="btn smooth btn-xs btn-a" href="#">btn-xs</a>
+				</div>
+
+				<br>
+
+				<a class="btn smooth btn btn-a btn-block" href="#">btn-block</a>
+
+				<br>
+
+				<a class="btn smooth btn-default btn-sm active" href="#">active</a>
+
+				<br>
+
+				<a class="btn smooth btn-default btn-sm" disabled href="#">disabled</a>
+
+				<br><br>
+
+				<message class="warning">Since the disabled attribute doesn't work by default on &lt;a&gt; elements, Min uses pointer-events: none to disable links' link functionality. However, this isn't standardized yet and doesn't work in Opera 18 or lower, or in Internet Explorer 11. You should use Javascript to disable these links.</message>
+
+				<p class="text-muted  ">text-muted  </p>
+				<p class="text-primary">text-primary</p>
+				<p class="text-success">text-success</p>
+				<p class="text-info   ">text-info   </p>
+				<p class="text-warning">text-warning</p>
+				<p class="text-danger ">text-danger </p>
+
+				<p class="bg-primary">bg-primary</p>
+				<p class="bg-success">bg-success</p>
+				<p class="bg-info   ">bg-info</p>
+				<p class="bg-warning">bg-warning</p>
+				<p class="bg-danger ">bg-danger</p>
+
+				<button type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<br>
+				<span class="caret"></span>
+			</div>
+		</div>
+	</body>
+</html>
