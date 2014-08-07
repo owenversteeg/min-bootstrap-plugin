@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<script> 
-			document.createElement("nav"); document.createElement("ico"); document.createElement("button");
-			</script>
-		<!--[if lt IE 9]> 
-			<script> 
-				document.createElement("col"); document.createElement("message"); document.createElement("nav"); document.createElement("ico"); document.createElement("button");
-
-
-			</script>
-		<![endif]-->
+			document.createElement("nav"); document.createElement("button");
+		</script>
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>min</title>
+		<title>min bootstrap plugin</title>
 
-		<!--[if lt IE 7]>
-		<script src="IE70.js"></script>
+		<link href="entireframework.min.css" rel="stylesheet" type="text/css" />
+		
+		<!--[if lt IE 9]>
+		<style>
+			html {
+				overflow-x: hidden;
+			}
+		</style>
 		<![endif]-->
 		
-		<!--<link href="http://minfwk.com/entireframework.min.css" rel="stylesheet" type="text/css" />-->
-		
 		<style type="text/css">
-			/*Copyright 2014 Owen Versteeg; MIT licensed*/body,textarea{font:16px sans-serif;margin:0}.smooth{transition:all .2s}.btn,.nav a{text-decoration:none}*{outline:0}.container{width:1270px;margin:auto}@media(max-width:1310px){.container{margin:0 20px;width:auto}}label>*{display:inline}form>*{display:block;margin-bottom:10px}.btn{background:#999;border-radius:10px;border:0;color:#fff;cursor:pointer;display:inline-block;font-size:2.5em;margin:.2em .3em .2em 0;padding:15px 40px 16px}.btn:hover{background:#888}.btn:active,.btn:focus{background:#777}.btn-a{background:#0ae}.btn-a:hover{background:#09d}.btn-a:active,.btn-a:focus{background:#08b}.btn-b{background:#3c5}.btn-b:hover{background:#2b4}.btn-b:active,.btn-b:focus{background:#2a4}.btn-c{background:#d33}.btn-c:hover{background:#c22}.btn-c:active,.btn-c:focus{background:#b22}.btn-sm{border-radius:4px;font-size:.9em;padding:10px 15px 11px}.row{margin-top:2%;overflow:auto}.col{float:left}.c12,.table{width:100%}.c11{width:91.66%}.c10{width:83.33%}.c9{width:75%}.c8{width:66.66%}.c7{width:58.33%}.c6{width:50%}.c5{width:41.66%}.c4{width:33.33%}.c3{width:25%}.c2{width:16.66%}.c1{width:8.33%}@media(max-width:870px){.row .col{width:100%}}h1{font-size:4em}h2{font-size:2em}.ico{font:2.04em Arial Unicode MS,Lucida Sans Unicode}textarea,input,.addon-front{font-size:.9em}textarea,input{border:1px solid #ccc;padding:8px}textarea:focus,input:focus{border-color:#5ab}textarea,input[type='text']{width:13em;-webkit-appearance:none}.addon-front{padding:8px 12px;box-shadow:0 0 0 1px #ccc}.nav,.nav .current,.nav a:hover{background:#000;color:#fff}.nav{height:1.5em;padding:.7em 0 .95em}.nav a{padding-right:1em;color:#aaa;top:-1px;font-size:14px;position:relative}.btn.btn-close{background:#000;visibility:hidden;float:right;margin-top:-54px;font-size:25px}.nav .pagename{font-size:22px;top:1px}@media(max-width:500px){.btn.btn-close{visibility:visible}.nav{overflow:hidden}.pagename{margin-top:-11px}.nav:focus{height:auto}.nav div:before{content:'';border-top:3px solid;border-bottom:10px double;float:right;height:4px;right:3px;top:14px;width:20px;position:relative;background:#000}.nav a{padding:.5em 0;width:50%;display:block}}.table{border-spacing:0}th,td{padding:.5em;text-align:left}tbody tr:nth-child(2n-1){background:#ccc}
-
 			/* Min+ plugin*/
 			message {
 				display: block;
@@ -43,147 +40,6 @@
 				background: #dfd;
 			}
 		</style>
-
-		<script src="./docs_files/less.js" type="text/javascript"></script><style type="text/css"></style>
-
-		<style type="text/css">
-			/* These styles are used on this page only to make the demo page look nicer. Don't use them in your project. */
-			
-			/* Bootstrap stuff */
-			.buttonsizes * {
-				vertical-align: bottom;
-				margin-bottom: 0;
-				margin-right: 10px;
-				margin-left: 0;
-			}
-
-			/* code blocks */
-			pre {
-				font-size: .9em;
-				word-wrap: break-word;
-			}
-			
-			/* formatting for grid system */
-			.dark {
-				background-color: rgb(172, 172, 172);
-			}
-			
-			.light {
-				background-color: rgb(223, 223, 223);
-			}
-			
-			.col {
-				text-align: center;
-			}
-			
-			.row {
-				line-height: 2em;
-			}
-			
-			/* pretty heading demo display (all headings on one line) */
-			.headings *:not(first-of-type) {
-				display: inline;
-			}
-			
-			/* fancy page heading styles */
-			h1:not(.exampleh1) {
-				margin: 0.2em 0;
-				border-bottom: 5px solid;
-				margin-bottom: 15px;
-				padding-bottom: 5px;
-			}
-			
-			/* normally, the button would extend past the page top and be invisible but when it's in the middle of the page it shows */
-			button.btn-close.btn-sm {
-				padding-top: 4px;
-				margin-top: -50px;
-			}
-
-			/* this fixes the display of the demo-navbar when the page is resized */
-			.navbar .container {
-				margin: 0 20px;
-			}
-			
-			/* support tables */
-			.support .full {
-				background: #3c5;
-			}
-			
-			.support .partial {
-				background: #fd5;
-			}
-			
-			.support .none {
-				background: #d55;
-			}
-			
-			.key {
-				padding: 5px;
-				line-height: 30px;
-			}
-			
-			.support th, .support td, .support table {
-				border: 1px solid;
-			}
-			.support table, .support .key {
-				font-weight: bold;
-			}
-			
-			@media (max-width: 900px) {
-				.browserdetails {
-					display: none;
-				}
-			}
-
-			/* End this-page-only styles, start beta styles */
-			nav {
-				display: block;
-			}
-
-			/* IE styles */
-
-			/*
-			.btn-sm {
-				font-size:1em;
-				margin-top: 0;
-				padding-top: 1000px;
-			}
-
-			button {
-				line-height: .65em;
-			}
-
-			a.btn {
-				margin-top: -84px;
-			}
-
-			a.btn-sm, div.btn-sm {
-				margin-top: -49px;
-				padding-top: 10px;
-			}
-
-			button.btn-sm {
-				line-height: .7em;
-				padding-top: 11px;
-			}
-			
-			.btn {
-				width: auto;
-				display: inline;
-				overflow: visible;
-			}
-
-			*/
-
-			/* Changes to the main CSS:
-			 - move media query from max-width to min-width
-			*/
-
-			/* new beta styles */
-			
-		</style>
-
-		<link href="bootstrap-plugin.css" rel="stylesheet" type="text/css" />
 
 		<!--[if lte IE 6]>
 			<style>
