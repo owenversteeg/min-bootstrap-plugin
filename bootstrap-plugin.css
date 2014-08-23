@@ -12,7 +12,15 @@ form .c10 { width: 83.33%; margin: 0; display: inline-block; }
 form .c2 { display: inline-block }
 label[for], form input[type="text"] { display: inline-block; box-sizing: border-box; }
 
-.ico.ico-input { margin-left: -38px;display: inline-block;vertical-align: middle;top: 5px;font-size: 28px;position: relative; pointer-events: none; }
+.ico.ico-input {
+	margin-left: -38px;
+	display: inline-block;
+	vertical-align: middle;
+	font: 33px Lucida Sans Unicode mono monospace;
+	top: 3px;
+	position: relative;
+	pointer-events: none;
+}
 
 .has-success input, input.has-success { border-color: #5b5; } .has-warning input, input.has-warning { border-color: #ca6; } .has-error input, input.has-error { border-color: #c88; } [class*="has-"] { border-width: 2px; }
 
