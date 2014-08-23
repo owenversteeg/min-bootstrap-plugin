@@ -1,3 +1,6 @@
+/* navbar plugin v2.0 */
+.navlink-right{margin-right:1em;float:right;position:relative;top:5px}.navlink-right .pulldown{float:right;text-align:right;right:13px;left:initial}.nav form *,.nav form{display:inline-block}.nav form input{color:white}.nav form{position:relative;top:-1px;height:31px;margin-top:-4px}.nav .btn{padding:10px 15px 8px}.nav div:not(.container):before{content:none}div.wpd{position:relative;display:inline-block;padding-top:0;font-size:14px;top:-1px;padding-right:1em}div.wpd::after{content:' \25BC'}.pulldown hr{margin:.5em -10px .5em -22px;height:1px;background:#aaa;border:0}.pulldown h5{margin:0 auto}div.wpd:hover::after{visibility:hidden}.navbar-link.wpd li>a{color:white}div.wpd:hover .pulldown{display:block}.pulldown{display:none;background:black;width:205px;position:absolute;left:-13px}.pulldown>ul{padding:0 10px 10px 22px;line-height:27px;list-style:initial;list-style-type:none;margin:4px 0 0 0}.navlink-right .indent{margin-right:25px}.indent{margin-left:25px}@media(max-width:500px){.navlink-right .pulldown{text-align:left;right:auto}.navlink-right{margin-right:0;float:none;display:inline-block;width:75%}.navlink-right .indent{margin-left:25px}li{display:block}.navbar{height:auto}div.wpd{display:block;width:100%;padding:.5em 0 0 0;margin-left:0;position:relative;color:#aaa}div.wpd:hover::after{content:none}div.wpd>.pulldown{width:100%;position:relative;display:block}.pulldown>ul{padding:0;line-height:inherit;margin-bottom:0;margin-left:20px}div.wpd::after{content:''}}
+
 .form-inline > *, .form-inline > * > * { display: inline-block; vertical-align: top;}
 form.inline label, .form-inline label { padding-top: 4px; }
 
@@ -210,3 +213,42 @@ table.bordered, table.bordered td, .table-bordered td, .table-bordered th { bord
 }
 
 .embed-responsive{position:relative;display:block;height:0;padding:0;overflow:hidden}.embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}.embed-responsive.embed-responsive-16by9{padding-bottom:56.25%}.embed-responsive.embed-responsive-4by3{padding-bottom:75%}
+
+.dropdown a {
+	color: white;
+	text-decoration: none;
+}
+
+.dropdown a:hover {
+	text-decoration: underline;
+}
+
+div.wpd.dropdown {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.dropdown .pulldown {
+	border-radius: 8px;
+	left: 0;
+	border: 3px solid white;
+	left: -3px;
+	top: 37px;
+}
+
+li.dropdown-header {
+	color: #bbb;
+	font-size: 12px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+li.disabled:hover {
+	cursor: not-allowed !important;
+}
+
+li.disabled a {
+	color: #bbb;
+	pointer-events: none;
+}
