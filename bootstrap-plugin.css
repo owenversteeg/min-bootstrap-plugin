@@ -16,8 +16,11 @@ label[for], form input[type="text"] { display: inline-block; box-sizing: border-
 	margin-left: -38px;
 	display: inline-block;
 	vertical-align: middle;
-	font: 33px Lucida Sans Unicode mono monospace;
-	top: 3px;
+	font: 29px Segoe UI Symbol, Sans, Al Bayan;
+	/* Windows 7+ nice font, Linux (~80% have it) nice font, OSX nice font.
+	Linux font details: http://en.wikipedia.org/wiki/Bitstream_Vera
+	XP defaults to a font which isn't going to win any design awards but it isn't bad. */
+	top: 5px;
 	position: relative;
 	pointer-events: none;
 }
